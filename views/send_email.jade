@@ -1,0 +1,9 @@
+extend layout
+
+block content
+    h1 Add new email
+    form(method="POST" , action="/send_email")
+        p Email:
+        input#title(type="text", name="my_Email")
+        p Button:
+        button(type="submit") Add new email

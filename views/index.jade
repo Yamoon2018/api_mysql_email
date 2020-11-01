@@ -1,0 +1,13 @@
+extend layout
+
+block content
+    h1 Add new email
+    form(method="POST" , action="/send")
+        p Full Name:
+        input#title(type="text", name="firstname")
+        p Last Name:
+        input#title(type="text", name="lastname")
+        p Email:
+        input#title(type="text", name="Email")
+        p Button:
+        button(type="submit") Add new email
